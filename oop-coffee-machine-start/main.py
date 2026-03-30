@@ -25,3 +25,7 @@ while machine_operation:
 
             if moneymachine.make_payment(drink.cost):
                 coffeemaker.make_coffee(drink)
+            else:
+                print('insufficient money')
+        else:
+            print('insufficient resources please refill')
